@@ -1,6 +1,197 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "zCPk/p/m3cr8kP4jroSzUJkUxTI=",
+			"path": "github.com/bytom/crypto/sha3pool",
+			"revision": "99bd78fed5685425306c10fa919af951d97e76fc",
+			"revisionTime": "2018-05-28T08:31:55Z"
+		},
+		{
+			"checksumSHA1": "ezJVegoWEhLw4YFnfxcoPzWPBX4=",
+			"path": "github.com/bytom/encoding/blockchain",
+			"revision": "99bd78fed5685425306c10fa919af951d97e76fc",
+			"revisionTime": "2018-05-28T08:31:55Z"
+		},
+		{
+			"checksumSHA1": "ZCB3oBCjd3PHxkVm47ivzg82VSk=",
+			"path": "github.com/bytom/encoding/bufpool",
+			"revision": "99bd78fed5685425306c10fa919af951d97e76fc",
+			"revisionTime": "2018-05-28T08:31:55Z"
+		},
+		{
+			"checksumSHA1": "8e94vVGc8ssfxcpgDSGLmp1hRJM=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "3a3da3a4e26776cc22a79ef46d5d58477532dede",
+			"revisionTime": "2018-05-22T22:42:51Z"
+		},
+		{
+			"checksumSHA1": "ljd3FhYRJ91cLZz3wsH9BQQ2JbA=",
+			"path": "github.com/pkg/errors",
+			"revision": "816c9085562cd7ee03e7f8188a1cfd942858cded",
+			"revisionTime": "2018-03-11T21:45:15Z"
+		},
+		{
+			"checksumSHA1": "WbbxCn2jUYIL5viqLo0BKXEdPrQ=",
+			"path": "github.com/prometheus/prometheus/util/flock",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "5fRTP+zI9WQqNzyHbi2qarMGauQ=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "ea8897e79973357ba785ac2533559a6297e83c44",
+			"revisionTime": "2018-05-23T07:42:43Z"
+		},
+		{
+			"checksumSHA1": "zIZZJkfCJx0+s6GCdenxvJrBTPM=",
+			"path": "github.com/spf13/cobra",
+			"revision": "ef82de70bb3f60c65fb8eebacbb2d122ef517385",
+			"revisionTime": "2018-04-27T13:45:50Z"
+		},
+		{
+			"checksumSHA1": "k5TsfhX2vvfffYbZQ4fMKtL5+cA=",
+			"path": "github.com/spf13/pflag",
+			"revision": "583c0c0531f06d5278b7d917446061adc344b5cd",
+			"revisionTime": "2018-04-12T12:09:13Z"
+		},
+		{
+			"checksumSHA1": "NfyNtFmmucrx6dsnqW/T23lyi7s=",
+			"path": "github.com/tendermint/abci/types",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "/DB9/UNUMYS4k4MopZLGdkXSRBQ=",
+			"path": "github.com/tendermint/ed25519",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "PX22ovkpLWYpJMxlCCT1t+SXJls=",
+			"path": "github.com/tendermint/ed25519/edwards25519",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "xS859G3mq0LY7zzTtfbaoRpdNBo=",
+			"path": "github.com/tendermint/ed25519/extra25519",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "n30ikBgZDuGAimvgaYLDE3eXTf8=",
+			"path": "github.com/tendermint/go-crypto",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "J6IWkZvbSLxxXDvGh/eiK7n8Ets=",
+			"path": "github.com/tendermint/go-wire",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "GvlFNFdgvmCfencwTbCuCIprqy8=",
+			"path": "github.com/tendermint/go-wire/data",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "cq4BButTrQSbP++BMV7GRpLdyWE=",
+			"path": "github.com/tendermint/tmlibs/common",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "KgSiIcL3Lzu2lwTKk4/tL6zdjRw=",
+			"path": "github.com/tendermint/tmlibs/db",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "kS8ZgRFE2gRd2b4r1ECzHVlT2Cs=",
+			"path": "github.com/tendermint/tmlibs/events",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "AL+p2KmSswjZ8oSEw/ernfnMAdU=",
+			"path": "github.com/tendermint/tmlibs/flowrate",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "C3m5825LSvKpo/FVthbNLed1DSE=",
+			"path": "github.com/tendermint/tmlibs/log",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "C1KKOxFoW7/W/NFNpiXK+boguNo=",
+			"path": "golang.org/x/crypto/curve25519",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "LIOlUuwAjG4+meTovizhtsB+fTE=",
+			"path": "golang.org/x/crypto/nacl/box",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "Y/FcWB2/xSfX1rRp7HYhktHNw8s=",
+			"path": "golang.org/x/crypto/nacl/secretbox",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "olOKkhrdkYQHZ0lf1orrFQPQrv4=",
+			"path": "golang.org/x/crypto/openpgp/armor",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "rlxVSaGgqdAgwblsErxTxIfuGfg=",
+			"path": "golang.org/x/crypto/openpgp/errors",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "jyP8QOzvouqRy4o3MKNjBl/K3o8=",
+			"path": "golang.org/x/crypto/poly1305",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "y/oIaxq2d3WPizRZfVjo8RCRYTU=",
+			"path": "golang.org/x/crypto/ripemd160",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "w8PESKJweP+BCAxCYPU1QC08qUU=",
+			"path": "golang.org/x/crypto/salsa20/salsa",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "DDHnuGCrmkKSXdNzc8pmn6P5O28=",
+			"path": "golang.org/x/crypto/sha3",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "xiderUuvye8Kpn7yX3niiJg32bE=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "728b753d0135da6801d45a38e6f43ff55779c5c2",
+			"revisionTime": "2017-01-24T01:46:54Z"
+		},
+		{
+			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+			"path": "golang.org/x/net/context",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "DQXNV0EivoHm4q+bkdahYXrjjfE=",
+			"path": "gopkg.in/karalabe/cookiejar.v2/collections/prque",
+			"revision": "8dcd6a7f4951f6ff3ee9cbb919a06d8925822e57",
+			"revisionTime": "2015-07-24T13:16:13Z"
+		},
+		{
+			"checksumSHA1": "GOpWf6OreYnb9vOsBqQ1vtYCTYA=",
+			"path": "gopkg.in/karalabe/cookiejar.v2/collections/set",
+			"revision": "8dcd6a7f4951f6ff3ee9cbb919a06d8925822e57",
+			"revisionTime": "2015-07-24T13:16:13Z"
+		}
+	],
 	"rootPath": "github.com/btm-stats"
 }

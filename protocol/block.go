@@ -55,3 +55,12 @@ func (c *Chain) processBlock(block *types.Block) (bool, error) {
 	}
 	return false, nil
 }
+
+// GetBlockByHeight return a block by given height
+func (c *Chain) GetBlockByHeight(height uint64) (*types.Block, error) {
+	node := c.index.NodeByHeight(height)
+	if node == nil {
+		return nil, errors.New("can't find block in given height")
+	}
+	return c.store.GetBlock(&node.Hash)
+}
