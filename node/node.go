@@ -55,7 +55,6 @@ func NewNode(config *cfg.Config) *Node {
 	node := &Node{
 		config:      config,
 		syncManager: syncManager,
-
 	}
 
 	return node
@@ -89,4 +88,13 @@ func initLogFile(config *cfg.Config) {
 	} else {
 		log.WithField("err", err).Info("using default")
 	}
+}
+
+func (n *Node) OnStart() error {
+
+	if !n.config.VaultMode {
+		n.syncManager.Start()
+	}
+
+	return nil
 }

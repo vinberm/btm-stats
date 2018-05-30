@@ -61,7 +61,7 @@ func NewSyncManager(config *cfg.Config, chain *core.Chain, txPool *core.TxPool, 
 	manager.sw.AddReactor("PEX", pexReactor)
 
 	manager.blockKeeper = newBlockKeeper(manager.chain, manager.sw, manager.peers, manager.dropPeerCh)
-	manager.fetcher = NewFetcher(chain, manager.sw, manager.peers)
+	//manager.fetcher = NewFetcher(chain, manager.sw, manager.peers)
 	protocolReactor := NewProtocolReactor(chain, txPool, manager.sw, manager.blockKeeper, manager.fetcher, manager.peers, manager.newPeerCh, manager.txSyncCh, manager.dropPeerCh)
 	manager.sw.AddReactor("PROTOCOL", protocolReactor)
 
@@ -116,4 +116,14 @@ func (sm *SyncManager) makeNodeInfo(listenerStatus bool) *p2p.NodeInfo {
 		nodeInfo.ListenAddr = cmn.Fmt("%v:%v", p2pListener.InternalAddress().IP.String(), p2pListener.InternalAddress().Port)
 	}
 	return nodeInfo
+}
+
+func (sm *SyncManager) netStart() error {
+	_, err := sm.sw.Start()
+	return err
+}
+
+//Start start sync manager service
+func (sm *SyncManager) Start() {
+	go sm.netStart()
 }
